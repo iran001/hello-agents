@@ -10,6 +10,8 @@
 - 学习回顾和报告生成
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import time
 import json
@@ -17,8 +19,6 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any, Tuple
 from hello_agents.tools import MemoryTool, RAGTool
 import gradio as gr
-from dotenv import load_dotenv
-load_dotenv()
 
 class PDFLearningAssistant:
     """智能文档问答助手"""

@@ -5,14 +5,14 @@
 详细展示WorkingMemory、EpisodicMemory、SemanticMemory、PerceptualMemory的实现特点
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import time
 import hashlib
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
 from hello_agents.tools import MemoryTool
-from dotenv import load_dotenv
-load_dotenv()
 
 class MemoryTypesDeepDive:
     """四种记忆类型深度解析演示类"""

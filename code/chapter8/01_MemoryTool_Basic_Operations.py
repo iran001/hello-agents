@@ -5,11 +5,11 @@
 展示MemoryTool的核心execute方法和基本操作
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime
 from typing import List
 from hello_agents.tools import MemoryTool
-from dotenv import load_dotenv
-load_dotenv()
 
 def memory_tool_execute_demo():
     """MemoryTool execute方法演示"""

@@ -5,11 +5,11 @@
 展示如何在HelloAgents框架中集成MemoryTool和RAGTool
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 import time
 from hello_agents import SimpleAgent, HelloAgentsLLM, ToolRegistry
 from hello_agents.tools import MemoryTool, RAGTool
-from dotenv import load_dotenv
-load_dotenv()
 
 class AgentIntegrationDemo:
     """Agent工具集成演示类"""

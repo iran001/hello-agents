@@ -5,11 +5,12 @@
 展示从短期记忆到长期记忆的智能转化过程
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 import time
 from datetime import datetime, timedelta
 from hello_agents.tools import MemoryTool
-from dotenv import load_dotenv
-load_dotenv()
+
 
 class MemoryConsolidationDemo:
     """记忆整合演示类"""

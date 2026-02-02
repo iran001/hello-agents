@@ -5,12 +5,12 @@
 展示MemoryTool和MemoryManager的分层架构
 """
 
+from dotenv import load_dotenv
+load_dotenv()
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from hello_agents.tools import MemoryTool
 from hello_agents.memory import MemoryConfig
-from dotenv import load_dotenv
-load_dotenv()
 
 class MemoryToolArchitectureDemo:
     """MemoryTool架构演示类"""
